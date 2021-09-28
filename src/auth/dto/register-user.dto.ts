@@ -11,8 +11,8 @@ export class CreateUserDto {
 
     @IsString()
     @Length(5, 10)
-    firstName:string;
-    
+    firstName: string;
+
     @IsString()
     @Length(5, 10)
     lastName: string;
